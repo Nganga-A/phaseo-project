@@ -1,0 +1,105 @@
+@import url("cards.css");
+@import url("form.css");
+
+#logo{
+    height:50px;
+    width: auto;
+  }
+
+#navbar {
+    display: flex;  
+    width: 100%;
+    background-color: #CCCDFE;
+    ;
+    position:relative;
+    
+  }
+  
+.ulNav {
+    display: flex;
+    list-style-type: none;
+  }
+
+.ulNav li {
+    display: flex;
+    text-decoration: none;
+    margin-right: 75px;
+    float: left;
+    padding-right: 25px;
+    padding-top: 15px;
+    justify-content: space-between;
+  }
+
+.ulNav a {
+    text-decoration: none;
+    color: #333;
+  
+  }
+
+.logo {
+    float:right;
+  }
+
+a {
+    color: #f4623a;
+    text-decoration: none;
+    background-color: transparent;
+  }
+a:hover {
+    color: #d6370c;
+    text-decoration: underline;
+  }
+
+header {
+      background-image: url("img/bg-masthead.jpg");
+      text-align: center;
+      background-size: auto;
+      
+    }
+
+  .h1 {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration-line: underline;
+      color: #d6370c;
+      font-size: 30px;
+    }
+   
+  .aboutP {
+        font-size:20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+  /* text on top of header */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#header .centered h1 {
+  font-size: 50px;
+  color: #46aae6;
+}
+
+#header .centered h3 {
+  color: #46aae6;
+}
+
+#header .centered p {
+  color: #46aae6;
+}
+
+#ContactUs p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:17px;
+  text-align: center;
+}
+
+#about {
+  background-color: #f2f2f2;
+  padding:30px;
+}
+
