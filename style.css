@@ -1,5 +1,13 @@
 @import url("cards.css");
 @import url("form.css");
+@import url("team.css");
+@import url("navbar.css");
+@import url("newsletter.css");
+@import url("footer.css");
+
+html {
+  background-color: #f2f2f2;
+}
 
 #logo{
     height:50px;
@@ -8,9 +16,8 @@
 
 #navbar {
     display: flex;  
-    width: 100%;
-    background-color: #CCCDFE;
-    ;
+    width: auto;
+    background-color: #D9EEE1;
     position:relative;
     
   }
@@ -57,7 +64,7 @@ header {
       
     }
 
-  .h1 {
+.h1 {
       text-align: center;
       font-family: Arial, Helvetica, sans-serif;
       text-decoration-line: underline;
@@ -65,7 +72,7 @@ header {
       font-size: 30px;
     }
    
-  .aboutP {
+.aboutP {
         font-size:20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -101,5 +108,36 @@ header {
 #about {
   background-color: #f2f2f2;
   padding:30px;
+  margin-bottom: 100px;
 }
 
+#services {
+  margin-bottom: 150px;
+}
+
+.center {
+  text-align: center;
+}
+
+/*responsive navbar*/
+@media screen and (max-width: 600px) {
+  .ncolumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#ContactUs {
+  padding-top: 200px;
+}

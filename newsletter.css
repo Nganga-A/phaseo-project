@@ -1,0 +1,44 @@
+.newsletter {
+    border: 1px solid black;
+    font-family: Arial;
+    border-radius: 0.25rem;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+  
+  }
+  
+.newscontainer {
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+.input-submit, .input-text {
+  justify-content: center;
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+
+  .input-text {
+    background-color: #f2f2f2;
+    border-radius: 0.25rem;
+  }
+  
+.input-submit {
+    background-color: #04AA6D;
+    color: #f2f2f2;
+    border: none;
+  }
+  
+.input-submit:hover {
+    opacity: 0.8;
+  }
+
+#newsletter {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 150px;
+  }

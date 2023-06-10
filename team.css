@@ -1,0 +1,46 @@
+.tcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border: 1px #46aae6 solid;
+    border-radius: 1px;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  
+.icons {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    
+  } 
+
+.a-icons {
+    height: 30px;
+    width: 30px;
+  }
+ 
+.tcolumn {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+ /* Responsive columns */
+ @media screen and (max-width: 600px) {
+    .tcolumn {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  #OurTeam {
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+  }

@@ -1,22 +1,26 @@
-#form {
+form {
     display:block;
+    width: 100%;
+    background-color: #f2f2f2;
+
 }
 
+
 .form-body {
-    margin: 0;
+
     font-family: -apple-system, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    text-align: left;
-    background-color: #fff;
+    background-color: #f2f2f2;
     padding: 30px;
     padding-bottom: 10px;
     border: 1px solid black;
     border-radius: 0.25rem;
-    max-width: 100%;
-    box-shadow: 3px 3px #46aae6;
+    width: 50%;
+    margin:auto;
+
 }
 
 .form-group {
@@ -24,15 +28,14 @@
 }
 
 .input-item {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 100%;
+    border-radius: 0.25rem;
+    border: 1px solid black;
 }
+
+input[type="text"], input[type="email"] {
+    background-color: #f2f2f2;
+}
+
 
 /*Inputbox*/ 
 .form-control {
@@ -103,4 +106,14 @@ label{
     border-color: #0062cc;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
+
+/*responsive form*/
+@media screen and (max-width: 600px) {
+    form {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
 
