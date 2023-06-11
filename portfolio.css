@@ -1,0 +1,9 @@
+.row-portfolio {
+    display: flex;
+}
+
+.column-p {
+    display: flex;
+    float: left;
+    width: 25%;
+}

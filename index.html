@@ -8,45 +8,39 @@
      <!-- Author of website -->
      <meta name="author" content="Bespoke A-Tech Solutions - The leading software solutions provider in Kenya"/>
      <meta name="keywords"  content="software,websites,web,android,apps,ios,development,web design in nairobi,software development in nairobi, affordable software development in nairobi,software company Nairobi, software company in kenya,software company contact number,software company consultant,software company near me,software company profile,software company quotes,software company quotation,software companies in kenya, softwares in kenya, best software developers in kenya, system companies in kenya, software solutions in kenya,kenya web development companies in kenya, kenya website, website designers in kenya, Laptop Computer dealers in kenya, System Software developers in kenya, kenya web development companies in kenya, kenya web experts, bulk Computers in kenya, bulk laptop dealers in kenya,, software designers in kenya, Computer corporations in kenya, Cyber Security companies in nairobi kenya, Cloud Computing companies in kenya" />
-     
-     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-     <link href="style.css" rel="stylesheet" />
-    
+    <link href="style.css" rel="stylesheet" />
+    <!--JS File-->
+    <script src="myscripts.js"></script>
      <!-- Favicon-->
-     <link rel="icon" type="image/x-icon" href="/img/favicon.png"/>
+     <link rel="icon" type="image/x-icon" href="img/favicon.png"/>
 
 </head>
 
 <body id="page-top">
-
-      <!--Navigation Bar-->
-     <!--
-      <nav class="container" id="navbar">
-                <ul class="ulNav">
-                    <li class="logo"><a href="#page-top"><img id="logo" src="img/logo.png"></a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Our Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#team">Our Team</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>    
-    </nav>
-    --> 
-    <div class="nrow" >
-        <div class="ncolumn1"> <a href="#page-top"><img id="logo" src="/img/logo.png"></a></div>
-        <div class="ncolumn"> <a href="#about">About Us</a> </div>
-        <div class="ncolumn"> <a href="#services">Our Services</a> </div>
-        <div class="ncolumn"> <a href="#portfolio">Portfolio</a> </div>
-        <div class="ncolumn"> <a href="#team">Our Team</a> </div>
-        <div class="ncolumn"> <a href="#contact">Contact Us</a> </div>
-        
+   <!--Navigation Bar-->
+    <nav class="navbar">
+    <div class="logo">
+       <a href="#page-top"><img id="logo" src="img/logo.png"></a>
     </div>
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#OurTeam">Our Team</a></li>
+        <li><a href="#ContactUs">Contact Us</a></li>
+      </div>
+    </ul>
+  </nav>
+
 
     <!-- Header -->
     <div id="header">
-    <img src="/img/bg-masthead.jpg" alt="" width="100%" height="500px">
+    <img src="img/bg-masthead.jpg" alt="" width="100%" height="500px">
     <div class="centered">
         <h1>Bespoke A-Tech Solutions</h1>
         <h3> The best way to tech!</h3>
@@ -68,13 +62,13 @@
     
     
     <!--Our Services-->
-    <section id="services">
+    <section id="services" style="margin-bottom: 50px;">
     <h1 class="h1" >Our Services</h1>
     <div class="row">
         <div class="column">
           <div class="card">
             <h3>SOFTWARE DEVELOPMENT</h3>
-            <img class="services-images" src="/img/software.PNG" alt="">
+            <img class="services-images" src="img/software.PNG" alt="">
             <p>We create bespoke software applications that transform businesses, organizations and schools.
                 Develop your web, mobile and software applications in time and with style.</p>
           </div>
@@ -83,7 +77,7 @@
         <div class="column">
           <div class="card">
             <h3>SYSTEMS INTEGRATION</h3>
-            <img class="services-images"src="/img/intergration.PNG" alt="">
+            <img class="services-images"src="img/intergration.PNG" alt="">
             <p>We support organizations through the whole IT system integration process, from project scope to implementation.</p>
           </div>
         </div>
@@ -91,7 +85,7 @@
         <div class="column">
           <div class="card">
             <h3>SYSTEMS SUPPORT AND MAINTENANCE</h3>
-            <img class="services-images" src="/img/maintenance.PNG" alt="">
+            <img class="services-images" src="img/maintenance.PNG" alt="">
             <p>We offer software applications support and maintenance to keep your system running smoothly.</p>
           </div>
         </div>
@@ -99,40 +93,48 @@
         <div class="column">
           <div class="card">
             <h3>SYSTEMS VERSION CONTROL MANAGEMENT</h3>
-            <img class="services-images" src="/img/version.png" alt="">
+            <img class="services-images" src="img/version.png" alt="">
             <p> We offer Version control systems/software tools that help software teams manage changes to source code over time.</p>
           </div>
         </div>
       </div>
       </section>
 
-
+    <p>.</p>
 
     <!--Portfolio-->
-    <section> 
+    <section id="portfolio" style="margin-top: 50px;"> 
         <h1 class="h1">Portfolio</h1>
-        <h3 class="center"> Our able team has developed the following websites and systems</h3>
-        <div id="flex-container">
-           <div>
-              <iframe src="www.w3schools.com" title="Moringa School Website" frameborder="0"></iframe>
-           </div>
-           <div>2</div> 
-           <div>3</div>
-           <div>4</div>
-        </div>
+        <h3 class="center" style="padding: 15px;"> Our able team has developed the following websites and systems</h3>
+        <div class="row-portfolio">
+          <div class="column-p">
+          <img class="portfolio" src="img/moringa.png" style="width:100%">
+          </div>
+          <div class="column-p">
+          <img class="portfolio" src="img/kra.png" style="width:100%">
+          </div>
+          <div class="column-p">
+          <img class="portfolio" src="img/kebs.png" style="width:100%">
+          </div>
+          <div class="column-p">
+          <img class="portfolio" src="img/kcaa.png" style="width:100%">
+         </div>
+         </div>
+         <p style="text-align: center; padding-top: 20px; "><a href="#portfolio">View More</a></p>
     </section>
 
     <!--Our Team-->
-    <section style="padding-top: 50px;" id="OurTeam" class="OurTeam">
+    <section style="padding-top: 90px;" id="OurTeam" class="OurTeam">
        <h1 class="h1">Meet Our Team!</h1>
-       <h4 class="center">At Bespoke A-tech Solutions, we believe that a strong and cohesive team is the foundation of success. We are proud to introduce you to the talented individuals who make up our exceptional team. Each member brings a unique set of skills, expertise, and dedication to their role, ensuring that we deliver the best possible solutions to our clients.
+       <p>.</p>
+       <h4 class="center" style="padding-bottom: 15px;" >At Bespoke A-tech Solutions, we believe that a strong and cohesive team is the foundation of success. We are proud to introduce you to the talented individuals who make up our exceptional team. Each member brings a unique set of skills, expertise, and dedication to their role, ensuring that we deliver the best possible solutions to our clients.
        </h4>
 
        <!--1st Member-->
       <div class="trow">
       <div class="tcolumn">
       <div class="tcard">
-        <img src="/img/user1.png" alt="John" style="width:100%">
+        <img src="img/user1.png" alt="John" style="width:100%">
         <h2>John Doe</h2>
         <p class="title">CEO & Founder, Example</p>
         <p>Kenyatta University</p>
@@ -149,7 +151,7 @@
       <!--2nd Member-->
       <div class="tcolumn">
         <div class="tcard">
-          <img src="/img/user1.png" alt="John" style="width:100%">
+          <img src="img/user1.png" alt="John" style="width:100%">
           <h2>John Doe</h2>
           <p class="title">Senior Engineer</p>
           <p>Moringa School</p>
@@ -165,7 +167,7 @@
         <!--3rd Member-->
       <div class="tcolumn" >
         <div class="tcard">
-          <img src="/img/user1.png" alt="John" style="width:100%">
+          <img src="img/user1.png" alt="John" style="width:100%">
           <h2>John Doe</h2>
           <p class="title">Network Engineer</p>
           <p>Strathmore University</p>
@@ -181,7 +183,7 @@
         <!--4th Member-->
       <div class="tcolumn" >
         <div class="tcard">
-          <img src="/img/user1.png" alt="John" style="width:100%">
+          <img src="img/user1.png" alt="John" style="width:100%">
           <h2>John Doe</h2>
           <p class="title">Full Stack Develper</p>
           <p>University of Nairobi</p>
@@ -196,11 +198,13 @@
         </div>
 
     </section>
+    <p>.</p>
 
   
     <!--Contact Us-->
     <section  id="ContactUs">
-    <h1 class="h1">Let's Get In Touch</h1>
+    <h1 class="h1" style="margin-bottom: 20px;">Let's Get In Touch</h1>
+    
     <p>Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
    
     <div class="form-body">
@@ -266,20 +270,21 @@
           <input class="input-submit" type="submit" value="Subscribe">
         </div>
       </form>
-    </section>
-    
+
     <!--Footer-->
       <div class="footer">
+        <div  class="map"> <p>Visit Our Offices</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.16244016024!2d36.7846067!3d-1.3004862!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a6bf7445dc1%3A0x940b62a3c8efde4c!2sMoringa%20School!5e0!3m2!1sen!2ske!4v1686483435805!5m2!1sen!2ske" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
         <h3>Bespoke A-tech Solution</h3>
         <h5>The best Way to tech!</h5>
-        <ul class="socials">
-          <li><img class="a-icons" src="img/instagram.png" alt=""></li>
-          <li><img class="a-icons" src="img/linkedin.png" alt=""></li>
-          <li><img class="a-icons" src="img/email.png" alt=""></li>
-          <li><img class="a-icons" src="img/twitter.png" alt=""></li> 
+        <ul style="list-style: none;" class="socials">
+          <li> <a href="#"> <img class="a-icons" src="img/instagram.png" alt=""> </a> </li>
+          <li> <a href="#"> <img class="a-icons" src="img/linkedin.png" alt=""> </a>  </li>
+          <li> <a href="#"> <img class="a-icons" src="img/email.png" alt=""> </a>     </li>
+          <li> <a href="#"> <img class="a-icons" src="img/twitter.png" alt=""> </a>   </li> 
        </ul>
        <div class=”footer-bottom”>
-        <p>copyright &copy;2023 <a href=”#”>Bespoke A-tech Solutions</a>  </p>
+        <p>copyright &copy;2023 <a href=”#page-top”>Bespoke A-tech Solutions</a>  </p>
      </div>
       </div>
       
